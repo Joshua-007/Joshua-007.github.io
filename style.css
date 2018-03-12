@@ -79,6 +79,8 @@ table, th, td{
 }
 .gallery a img{
   text-align: center;
+  height: 20em;
+  width: 16em;
 }
 .gallery a img:hover{
   border: solid white;
