@@ -78,8 +78,6 @@ table, th, td{
 
 }
 .gallery a img{
-  height: 30em;
-  width: 20em;
   text-align: center;
 }
 .gallery a img:hover{
@@ -89,7 +87,7 @@ table, th, td{
 .gallery{
   display: inline-block;
   padding: 3px;
-  margin: 3px;
+  margin: 10px;
 }
 
 .electrical{
