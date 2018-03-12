@@ -1,0 +1,102 @@
+
+html,
+body{
+  margin: 0;
+  background-image: url('background.jpg');
+  color: white;
+  height: 100%;
+}
+.container{
+  min-height: 100%;
+  position: relative;
+}
+
+.header{
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar{
+  line-height: 50px;
+}
+
+ul#bar{ text-align: center;}
+ul#bar li{
+  line-height: 15px;
+  display: inline;
+  padding: 1em;
+  color: hotpink;
+}
+
+ul#bar li a, ul#bar li a:visited{
+  color: pink;
+}
+
+ul#bar li a:hover{
+  background-color: grey;
+  text-decoration: none;
+}
+
+.maincontentbox{
+  text-align: center;
+
+}
+
+.maincontent{
+  margin-left:12.5%;
+  width: 75%;
+  text-align: left;
+}
+table{
+  width: 60%;
+}
+
+th{
+  height: 30px;
+  text-align: center;
+}
+table, th, td{
+  border: 2px solid hotpink;
+  border-collapse: collapse;
+  padding: 4px;
+}
+
+.hrFooter
+{
+  width: 75%;
+  border: 1px solid pink;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  height: 6em;
+  margin-top: 2em;
+  text-align: center;
+  display: block;
+  width: 100%;
+
+}
+.gallery a img{
+  height: 30em;
+  width: 20em;
+  text-align: center;
+}
+.gallery a img:hover{
+  border: solid white;
+}
+
+.gallery{
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+}
+
+.electrical{
+  text-align: center;
+
+
+}
+.electrical a img:hover{
+  border: solid white;
+}
